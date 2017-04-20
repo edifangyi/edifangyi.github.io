@@ -2,7 +2,7 @@
         {
             "id": 0,
             "name": "Hadoop应用实战",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet0ztfeuzj203m04ga9w.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet0ztfeuzj203m04ga9w.jpg",
             "sale": 40.80,
             "date": "1分钟前",
             "username": "Tom",
@@ -10,7 +10,7 @@
         },{
             "id": 1,
             "name": "Spring+MyBatis企业应用实战",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1cldt95j209q09qdgc.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1cldt95j209q09qdgc.jpg",
             "sale": 48.60,
             "date": "1分钟前",
             "username": "火星人",
@@ -18,7 +18,7 @@
         },{
             "id": 2,
             "goodsname": "深入浅出MySQL 数据库开发 优化与管理维护 第2版",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1e3pu6sj209q09qmxl.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1e3pu6sj209q09qmxl.jpg",
             "sale": 82.90,
             "date": "3分钟前",
             "username": "Tom",
@@ -26,7 +26,7 @@
         },{
             "id": 3,
             "goodsname": "Servlet JSP和Spring MVC初学指南",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1gwkaa5j209q09qglt.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1gwkaa5j209q09qglt.jpg",
             "sale": 57.80,
             "date": "12分钟前",
             "username": "Budi Kurniawan",
@@ -34,7 +34,7 @@
         },{
             "id": 4,
             "goodsname": "2017年注册会计师全国统一考试专用教材 会计（附光盘）",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1jalghoj209q09q3yw.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1jalghoj209q09q3yw.jpg",
             "sale": 46.50,
             "date": "16分钟前",
             "username": "周立波",
@@ -42,7 +42,7 @@
         },{
             "id": 5,
             "goodsname": "人民的名义",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1kjy9c6j209q09qt8y.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1kjy9c6j209q09qt8y.jpg",
             "sale": 31.20,
             "date": "17分钟前",
             "username": "周梅森",
@@ -50,7 +50,7 @@
         },{
             "id": 6,
             "goodsname": "智能革命：迎接人工智能时代的社会、经济与文化变革",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1raempdj209q09qt99.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1raempdj209q09qt99.jpg",
             "sale": 59.80,
             "date": "23分钟前",
             "username": "失恋33天",
@@ -58,7 +58,7 @@
         },{
             "id": 7,
             "goodsname": "肖秀荣2017考研政治命题人1000题",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1t8ks9sj209q09qwf5.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1t8ks9sj209q09qwf5.jpg",
             "sale": 47.30,
             "date": "35分钟前",
             "username": "肖秀荣 ",
@@ -66,7 +66,7 @@
         },{
             "id": 8,
             "goodsname": "申论热点范文宝典2018：优秀范文150篇",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1ui13fqj209q09qweo.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1ui13fqj209q09qweo.jpg",
             "sale": 37.10,
             "date": "36分钟前",
             "username": "叶良辰",
@@ -74,7 +74,7 @@
         },{
             "id": 9,
             "goodsname": "2018考研真相考研英语一历年真题 彻底细读 高分突破版（2008-2017）最新十年试卷版 逐词逐句精解 基础薄弱者专用",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1vynheij209q09qdgb.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1vynheij209q09qdgb.jpg",
             "sale": 54.90,
             "date": "42分钟前",
             "username": "考研英语命题研究组 ",
@@ -82,7 +82,7 @@
         },{
             "id": 10,
             "goodsname": "小猪佩奇（套装全10册） [3-6岁]",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet1ymo8o1j209q09qmxn.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1ymo8o1j209q09qmxn.jpg",
             "sale": 77.30 ,
             "date": "1小时前",
             "username": "赵日天",
@@ -90,7 +90,7 @@
         },{
             "id": 11,
             "goodsname": "博目地球仪：20cm中文政区教辅地球仪（惠学版）",
-            "imgUrl": "http://ww1.sinaimg.cn/large/648b709cly1fet20o8vxej209q09qq3b.jpg",
+            "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet20o8vxej209q09qq3b.jpg",
             "sale": 38.50,
             "date": "1小时前",
             "username": "泰迪",
