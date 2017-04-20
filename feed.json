@@ -1,7 +1,7 @@
 [
         {
             "id": 0,
-            "name": "Hadoop应用实战",
+            "goodsname": "Hadoop应用实战",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet0ztfeuzj203m04ga9w.jpg",
             "sale": 40.80,
             "date": "1分钟前",
@@ -9,7 +9,7 @@
             "address": "9公寓513"
         },{
             "id": 1,
-            "name": "Spring+MyBatis企业应用实战",
+            "goodsname": "Spring+MyBatis企业应用实战",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1cldt95j209q09qdgc.jpg",
             "sale": 48.60,
             "date": "1分钟前",
