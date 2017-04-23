@@ -3,43 +3,45 @@
     "currentPage": 1,
     "totalPage": 3,
     "pageSize": 10,
-    "list": 
-    [   {
+    "list": [
+        {
             "id": 3,
             "goodsname": "迪士尼大电影双语阅读：美女与野兽 [Beauty And The Beast]",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fewwml8tjrj209q09qjs5.jpg",
-            "sale": 32.90,
-            "describe":"地道的英文：迪士尼官方授权，英文版由迪士尼官方出版。与电影紧密结合，让你快乐、有趣地学英文，快速提高你的英语水平！",
+            "sale": 32.9,
+            "describe": "地道的英文：迪士尼官方授权，英文版由迪士尼官方出版。与电影紧密结合，让你快乐、有趣地学英文，快速提高你的英语水平！",
             "date": "2小时前",
             "username": "迪士尼",
             "address": "11公寓403"
-        },{
+        },
+        {
             "id": 2,
             "goodsname": "Little Golden Book 小金书系列10册套装 英文原版",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fewwon850yj209q09qdhv.jpg",
-            "sale": 388.40,
-            "describe":"Best Little Word Book Ever斯凯瑞金色童书-zui好的单词书 英文原版 以小猫一家的日常生活为线索，它生活的小镇每天都发生些什么？以标签式的图文故事，串联起做家务、购物、出行等日常生活主题，向孩子讲述食物、交通工具、行为习惯、日常用品等等常用词汇和短语。",
+            "sale": 388.4,
+            "describe": "Best Little Word Book Ever斯凯瑞金色童书-zui好的单词书 英文原版 以小猫一家的日常生活为线索，它生活的小镇每天都发生些什么？以标签式的图文故事，串联起做家务、购物、出行等日常生活主题，向孩子讲述食物、交通工具、行为习惯、日常用品等等常用词汇和短语。",
             "username": "Richard Scarry",
             "address": "5公寓515"
-        },{
+        },
+        {
             "id": 1,
             "goodsname": "跟任何人都聊得来：最受世界500强企业欢迎的沟通课",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fewwqutk57j209q09qmyb.jpg",
-            "sale": 22.50,
-            "describe":"未跟任何人都聊得来？内向的人也可以？是的，内向的人往往更善于倾听，更善于从对方的思维角度出发，从而获得更多的信息和信任。",
+            "sale": 22.5,
+            "describe": "未跟任何人都聊得来？内向的人也可以？是的，内向的人往往更善于倾听，更善于从对方的思维角度出发，从而获得更多的信息和信任。",
             "date": "3小时前",
             "username": "迈克·贝克特尔",
             "address": "1公寓413"
-        },{
+        },
+        {
             "id": 0,
             "goodsname": "别输在不懂说话上：让你大受欢迎的说话技巧（最新典藏版）",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fewwsagmd3j209q09qgne.jpg",
-            "sale": 9.90,
-            "describe":"说话是一件简单的事，同时也是一件困难的事。尽管三岁的孩子都能说话，但即使是擅长辞令的外交家也会有说错话的时候。所以，如何说话、怎样把话说好是每一个人都必须掌握的一门艺术。",
+            "sale": 9.9,
+            "describe": "说话是一件简单的事，同时也是一件困难的事。尽管三岁的孩子都能说话，但即使是擅长辞令的外交家也会有说错话的时候。所以，如何说话、怎样把话说好是每一个人都必须掌握的一门艺术。",
             "date": "3小时前",
             "username": "武庆新",
             "address": "5公寓535"
         }
     ]
-
 }
