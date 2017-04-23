@@ -4,6 +4,7 @@
             "goodsname": "Hadoop应用实战",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet0ztfeuzj203m04ga9w.jpg",
             "sale": 40.80,
+            "describe":"故事从一个十四岁的少年的生日之夜开始，在那个离奇的雨夜，少年第一次目睹了球状闪电，这天地间最奇妙之物……",
             "date": "1分钟前",
             "username": "Tom",
             "address": "9公寓513"
@@ -12,6 +13,7 @@
             "goodsname": "Spring+MyBatis企业应用实战",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1cldt95j209q09qdgc.jpg",
             "sale": 48.60,
+            "describe":"《三体》三部曲被誉为迄今为止中国当代杰出的科幻小说，是中国科幻文学的里程碑之作，将中国科幻推上了世界的高度。",
             "date": "1分钟前",
             "username": "火星人",
             "address": "5公寓426"
@@ -20,6 +22,7 @@
             "goodsname": "深入浅出MySQL 数据库开发 优化与管理维护 第2版",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1e3pu6sj209q09qmxl.jpg",
             "sale": 82.90,
+            "describe":"未来，迫于环境恶化和人口压力，地球政府决定派出远征队伍，选取25岁以下的人类成员向未来移民。",
             "date": "3分钟前",
             "username": "Tom",
             "address": "8公寓113"
@@ -28,6 +31,7 @@
             "goodsname": "Servlet JSP和Spring MVC初学指南",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1gwkaa5j209q09qglt.jpg",
             "sale": 57.80,
+            "describe":"比尔·盖茨、“卷福”推荐阅读，感动和震撼全球读者的“生命之书”，“如果生命只剩下最后的火焰，我也会用来照亮你眼前的路。全世界只有万分之零点一二的人会在36岁前患上肺癌，保罗·卡拉尼什（Paul Kalanithi）是其中之一。当你读到这本书时，他已经不在人世。",
             "date": "12分钟前",
             "username": "Budi Kurniawan",
             "address": "5公寓535"
@@ -36,6 +40,7 @@
             "goodsname": "2017年注册会计师全国统一考试专用教材 会计（附光盘）",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1jalghoj209q09q3yw.jpg",
             "sale": 46.50,
+            "describe":"江湖奇书，洞察人心深层动机，关于聪明人怎样看世界的书，畅销数十个国家的大众经济学经典。有趣，有料，罗振宇视频推荐！大量无厘头故事、奇谈怪论，理解真实世界的运转逻辑，认识自我、认清他人。逃出认知囚笼，以经济学方式探索日常生活背后的世界，打破惯性思维，解决看似不可能解决的问题。",
             "date": "16分钟前",
             "username": "周立波",
             "address": "4公寓414"
@@ -44,6 +49,7 @@
             "goodsname": "人民的名义",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1kjy9c6j209q09qt8y.jpg",
             "sale": 31.20,
+            "describe":"本书是保证大规模电商系统高流量、高频次的葵花宝典，是互联网一线技术研发人员的实战手册。",
             "date": "17分钟前",
             "username": "周梅森",
             "address": "11公寓121"
@@ -52,6 +58,7 @@
             "goodsname": "智能革命：迎接人工智能时代的社会、经济与文化变革",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1raempdj209q09qt99.jpg",
             "sale": 59.80,
+            "describe":"从2006 年雅虎等团队开始研发 Hadoop 技术至今已整整10 年。在这10 年中技术发展迅速，Hadoop 上的生态系统逐渐扩大，各个行业的用户都在基于这一新的技术来开发各种应用，还有很多企业将原先基于传统IT 系统的应用逐步向Hadoop 上迁移。",
             "date": "23分钟前",
             "username": "失恋33天",
             "address": "5公寓545"
@@ -60,6 +67,7 @@
             "goodsname": "肖秀荣2017考研政治命题人1000题",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1t8ks9sj209q09qwf5.jpg",
             "sale": 47.30,
+            "describe":"本书介绍了Java EE领域的两个开源框架：Spring的MVC和MyBatis。其中Spring的版本为4.2，MyBatis的版本是3.4。本书的示例建议在Tomcat 8上运行。",
             "date": "35分钟前",
             "username": "肖秀荣 ",
             "address": "13公寓153"
@@ -68,6 +76,7 @@
             "goodsname": "申论热点范文宝典2018：优秀范文150篇",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1ui13fqj209q09qweo.jpg",
             "sale": 37.10,
+            "describe":"对一个前端工程师来说，这是最坏的时代，也是最好的时代。",
             "date": "36分钟前",
             "username": "叶良辰",
             "address": "4公寓423"
@@ -76,6 +85,7 @@
             "goodsname": "2018考研真相考研英语一历年真题 彻底细读 高分突破版（2008-2017）最新十年试卷版 逐词逐句精解 基础薄弱者专用",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1vynheij209q09qdgb.jpg",
             "sale": 54.90,
+            "describe":"本书全面介绍微信小程序的开发思路、技术、工具与案例，涉及小程序开发的方方面面。主要内容包括：前端开发基础、小程序开发基础、小程序组件、AIP详解、实例分析等。本书案例丰富、讲解细腻、实用性强，可帮助读者从零开始快速入门小程序开发。",
             "date": "42分钟前",
             "username": "考研英语命题研究组 ",
             "address": "4公寓358"
@@ -84,6 +94,7 @@
             "goodsname": "小猪佩奇（套装全10册） [3-6岁]",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet1ymo8o1j209q09qmxn.jpg",
             "sale": 77.30 ,
+            "describe":"我们认为，Hadoop 技术能成功的最根本原因在于它是把传统的集中式运算有效地转化成分布式计算的一种有效手段。集中计算演变成分布式是一个必然趋势，当然并不是说一定只有Hadoop 才是这个演进的唯一手段，不过它至少是可选的一个不错的手段。",
             "date": "1小时前",
             "username": "赵日天",
             "address": "8公寓287"
@@ -92,6 +103,7 @@
             "goodsname": "博目地球仪：20cm中文政区教辅地球仪（惠学版）",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet20o8vxej209q09qq3b.jpg",
             "sale": 38.50,
+            "describe":"高级工程师，科幻作家，中国科幻小说代表作家之一。主要作品包括7部长篇小说，9部作品集，16篇中篇小说，18篇短篇小说，以及部分评论文",
             "date": "1小时前",
             "username": "泰迪",
             "address": "12公寓481"
