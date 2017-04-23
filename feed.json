@@ -1,5 +1,10 @@
-[
-        {
+{
+    "totalCount": 148,
+    "currentPage": 1,
+    "totalPage": 15,
+    "pageSize": 10,
+    "list": 
+    [   {
             "id": 0,
             "goodsname": "Hadoop应用实战",
             "imgurl": "http://ww1.sinaimg.cn/large/648b709cly1fet0ztfeuzj203m04ga9w.jpg",
@@ -108,5 +113,6 @@
             "username": "泰迪",
             "address": "12公寓481"
         }
+    ]
 
-]
+}
