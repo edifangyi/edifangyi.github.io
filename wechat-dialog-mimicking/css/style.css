@@ -1,0 +1,439 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.6;
+}
+
+pre {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  white-space: pre-wrap;
+}
+
+html {
+  font-size: 32px;
+}
+
+body {
+  max-width: 720px;
+  border: 1px solid #eee;
+  margin: 0 auto;
+}
+
+.scroll-wrapper {
+  overflow: hidden !important;
+  padding: 0 !important;
+}
+.scroll-wrapper > .scroll-content {
+  height: 100%;
+  overflow-x: hidden !important;
+  overflow-y: scroll !important;
+}
+
+.avatar {
+  background-size: contain;
+  background-position: center center;
+}
+.avatar > img {
+  width: 100%;
+}
+
+.chat {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: #f0f0f0;
+}
+.chat .box_hd {
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  line-height: 0.938rem;
+}
+.chat .box_hd .title_wrapper {
+  position: relative;
+  padding: 0.75rem 1.063rem;
+  background-color: #262626;
+  z-index: 50;
+}
+.chat .box_hd .title_wrapper .title {
+  font-weight: 400;
+  height: 1rem;
+  display: inline-block;
+  font-size: 1rem;
+  color: #fff;
+}
+.chat .box_bd {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 3.188rem;
+  left: 0;
+}
+.chat .box_ft {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.chat .chatContent {
+  content: '';
+  clear: both;
+  display: table;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 1rem 0.438rem 2.5rem;
+}
+
+.message {
+  margin-bottom: 1.25rem;
+  float: left;
+  width: 100%;
+  animation: goup 0.5s;
+}
+.message .avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-top: 0.938rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.message .author_name {
+  height: 0.938rem;
+  margin: 0 0.875rem;
+  font-size: 0.625rem;
+  line-height: 0.938rem;
+  color: #b0b0b0;
+}
+.message .content {
+  overflow: hidden;
+}
+.message.me {
+  float: right;
+  text-align: right;
+  clear: right;
+}
+.message.me .avatar {
+  float: right;
+}
+.message.others {
+  float: left;
+  text-align: left;
+  clear: left;
+}
+.message.others .avatar {
+  float: left;
+}
+@keyframes goup {
+  0% {
+    transform: translate(0, 1.875rem);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+.message_system {
+  text-align: center;
+  margin: -0.313rem auto 0;
+  max-width: 50%;
+  font-size: 0;
+}
+.message_system .content {
+  display: inline-block;
+  background-color: #dcdcdc;
+  font-size: 0.75rem;
+  padding: 0.313rem 0.563rem;
+  color: #fff;
+  border-radius: 0.063rem;
+}
+
+.bubble {
+  max-width: 14.688rem;
+  min-height: 2.5rem;
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+  text-align: left;
+  font-size: 0.875rem;
+  border-radius: 0.125rem;
+  margin: 0 0.875rem;
+}
+.bubble:before {
+  content: '';
+  display: inline-block;
+  box-sizing: border-box;
+  width: 0.438rem;
+  height: 0.438rem;
+  position: absolute;
+  top: 0.938rem;
+  background-color: inherit;
+  border-right-color: inherit;
+  border-bottom-color: inherit;
+}
+.bubble.right:before {
+  right: -0.188rem;
+  transform: rotate(-45deg);
+}
+.bubble.left:before {
+  left: -0.188rem;
+  transform: rotate(135deg);
+}
+.bubble.bubble_default {
+  background-color: #fff;
+  border-color: #919191;
+}
+.bubble.bubble_default.left:before {
+  border-color: #919191;
+}
+.bubble.bubble_primary {
+  background-color: #90d936;
+  border-color: #6c9a36;
+}
+.bubble.bubble_primary.right:before {
+  border-color: #6c9a36;
+}
+.bubble.bubble_image {
+  border: none;
+}
+.bubble.bubble_image:before {
+  display: none;
+}
+
+.bubble_cont {
+  word-wrap: break-word;
+  word-break: break-all;
+  min-height: 2.5rem;
+}
+.bubble_cont .plain {
+  padding: 0.563rem 0.625rem;
+}
+.bubble_cont .plain img {
+  width: 1.5rem;
+}
+.bubble_cont .plain .hide {
+  display: none;
+}
+.bubble_cont .plain .trans {
+  display: block;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  padding-top: 0.25rem;
+  color: #669a27;
+  border-top: 0.0703rem solid #dcdcdc;
+}
+.bubble_cont .picture {
+  border-radius: 0.125rem;
+  overflow: hidden;
+  position: relative;
+}
+.bubble_cont .picture img {
+  display: block;
+  cursor: pointer;
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+}
+.bubble_cont .video img, .bubble_cont .video video {
+  max-width: 9.375rem;
+  max-height: 9.375rem;
+}
+
+.box_ft {
+  padding-top: 3.188rem;
+  background-color: #fff;
+}
+
+.input-wrapper {
+  position: absolute;
+  width: 100%;
+  height: 3.125rem;
+  top: 0;
+  left: 0;
+  background-image: url("http://c1.mifile.cn/f/i/hd/2016051101/input.jpg");
+  background-size: 22.5rem 3.188rem;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.input-wrapper > p {
+  margin: 0;
+  margin-left: 1.063rem;
+  margin-right: 3.563rem;
+  text-align: center;
+  line-height: 3.125rem;
+  color: #999;
+  font-size: 1rem;
+  animation: gost 1.4s infinite ease-in-out;
+  display: none;
+}
+@keyframes gost {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.input-wrapper > img {
+  width: 1.25rem;
+  height: 1.25rem;
+  position: absolute;
+  right: 1.063rem;
+  top: 1.063rem;
+  transition: transform 0.2s;
+}
+.input-wrapper.opened > img {
+  transform: rotate(180deg);
+}
+
+.choice-wrapper {
+  border-top: 0.0703rem solid #ebebeb;
+  background-color: #f0f0f0;
+  max-height: 0;
+  overflow: hidden;
+  transform: translate3d(0, 0, 0);
+  transition: max-height 0.2s ease-out;
+}
+.choice-wrapper.opened {
+  height: auto;
+  max-height: 21.875rem;
+}
+.choice-wrapper ul {
+  width: 100%;
+  padding: 0.938rem 0 0;
+  text-align: center;
+  font-size: 0;
+}
+.choice-wrapper ul > li {
+  display: inline-block;
+  background-color: #fff;
+  margin-bottom: 0.938rem;
+  margin-right: 0.813rem;
+  font-size: 0.875rem;
+  color: #000;
+  line-height: 2rem;
+  border-radius: 0.125rem;
+  cursor: pointer;
+}
+.choice-wrapper ul > li p {
+  font-size: 0.625rem;
+  line-height: 2.5;
+  white-space: nowrap;
+}
+.choice-wrapper ul > li a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+.choice-wrapper ul > li img, .choice-wrapper ul > li video {
+  display: block;
+  width: 100%;
+}
+.choice-wrapper ul > li.disabled {
+  background-color: #ccc !important;
+}
+.choice-wrapper ul > li.no-border {
+  border: 0;
+}
+.choice-wrapper ul > li.bg-trsp {
+  background-color: transparent;
+}
+.choice-wrapper ul > li.no-br {
+  border-radius: 0;
+}
+.choice-wrapper ul > li.li-3 {
+  width: 6.25rem;
+}
+.choice-wrapper ul > li.li-3:nth-of-type(3n) {
+  margin-right: 0;
+}
+.choice-wrapper .main-choice > li {
+  color: #fff;
+}
+.choice-wrapper .main-choice > li:nth-of-type(1) {
+  background-color: #e24e4e;
+}
+.choice-wrapper .main-choice > li:nth-of-type(2) {
+  background-color: #f2862f;
+}
+.choice-wrapper .main-choice > li:nth-of-type(3) {
+  background-color: #f1b40f;
+}
+
+.map-wrapper .map {
+  width: 14.219rem;
+  height: 20.313rem;
+  background: url("http://c1.mifile.cn/f/i/hd/2016051101/map.jpg") center center no-repeat;
+  background-size: 14.219rem 20.313rem;
+}
+.map-wrapper .map .map-pointer {
+  position: absolute;
+  width: 0.875rem;
+  height: 0.875rem;
+  background-color: #0099ff;
+  border-radius: 0.438rem;
+  left: 8.438rem;
+  top: 1.125rem;
+}
+.map-wrapper .map .map-pointer:before {
+  content: '';
+  position: absolute;
+  top: -0.438rem;
+  left: -0.438rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  background-color: rgba(0, 153, 255, 0.3);
+}
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes animate-map-pointer {
+  0% {
+    transform: translate(0, 0);
+  }
+  10% {
+    transform: translate(1.313rem, 2rem);
+  }
+  25% {
+    transform: translate(-0.563rem, 4.344rem);
+  }
+  50% {
+    transform: translate(0.063rem, 9.563rem);
+  }
+  75% {
+    transform: translate(-5.25rem, 12.406rem);
+  }
+  100% {
+    transform: translate(-1.625rem, 16.844rem);
+  }
+}
+.map-wrapper p {
+  margin-top: 0.625rem;
+}
+.map-wrapper p > span {
+  display: inline-block;
+  width: 1.25rem;
+}
+.map-wrapper.animate .map .map-pointer {
+  animation: animate-map-pointer 5s linear 1;
+  animation-fill-mode: forwards;
+}
+.map-wrapper.animate .map .map-pointer:before {
+  animation: blink 0.8s infinite reverse;
+}
