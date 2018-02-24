@@ -1,87 +1,238 @@
-<!DOCTYPE html>
-<html lang="en" >
-
+<!DOCTYPE HTML>
+<html lang="zh-CN" xml:lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <title>Wechat Dialog Mimicking</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
-</head>
-
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+	<title>大屏手机就是小米Max群</title>
+	<meta name="description" content="">
+	<script>!function(n){var e=n.document,t=e.documentElement,i=720,o=i/32,a="orientationchange"in n?"orientationchange":"resize",d=function(){var n=t.clientWidth||320,n=n>720?720:320>n?320:n;t.style.fontSize=n/o+"px"};e.addEventListener&&n.addEventListener(a,d,!1),d()}(window);</script>
+	<link rel="stylesheet" type="text/css" href="http://hd.mi.com/f/zt/hd/2016051101/mimax.css?160511"/>
+ </head>
 <body>
-
-  <div class="chat">
-<!-- 	<div class="box_hd">
-		<div class="title-wrapper">
-			<h1 class="title">大屏手机就是小米Max群</h1>
+	<div class="chat">
+		<div class="box_bd scroll-wrapper">
+			<canvas id="emoji" class="emoji-canvas" width="720" height="1500"></canvas>
+			<div class="scroll-content J_scrollContent">
+				<div class="chatContent" id="chatContent">
+				</div>
+			</div>
+			<div class="train J_train">
+				<img data-origin="http://c1.mifile.cn/f/i/hd/2016051101/train.gif" alt="火车">
+			</div>
 		</div>
-	</div> -->
-	<div class="box_bd scroll-wrapper">
-		<div class="scroll-content J_scrollContent">
-			<div class="chatContent" id="chatContent">
+		<div class="box_ft close">
+			<div class="input-wrapper">
+				<p class="J_noticeInput">点击提问</p>
+				<img src="http://c1.mifile.cn/f/i/hd/2016051101/input-down.png" alt="">
+			</div>
+
+			<div class="choice-wrapper J_choiceWrapper">
+				<ul class="main-choice J_choice J_mainChoice" data-choice="0">
+					<li class="J_liNext li-3" data-target-dialog="1" data-target-choice="1_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','尺寸多大']);">尺寸多大</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="2" data-target-choice="2_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','存储多大']);">存储多大</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="3">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','电量多大']);">电量多大</a>
+					</li>
+					<br>
+					<li class="J_liNext li-3" data-target-dialog="4" data-target-choice="4">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','配置价格']);">配置价格</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="5">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','问颜值']);">问颜值</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="6" data-target-choice="4">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','怎么买']);">怎么买</a>
+					</li>
+					<br>
+					<li class="J_liNext li-3" data-target-dialog="7" data-target-choice="7_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','我是彩蛋']);">我是彩蛋</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="8">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','求红包']);">求红包</a>
+					</li>
+					<li class="J_liNext J_finishDialog li-3" data-target-dialog="9" data-continue="false">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','不聊了']);">不聊了</a>
+					</li>
+				</ul>
+
+				<ul class="J_choice" data-choice="1_1">
+					<li class="J_liNext li-2 li-h" data-target-dialog="1_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','屏幕多大']);">屏幕多大</a>
+					</li>
+					<li class="J_liNext li-2 li-h" data-target-dialog="1_2" data-target-choice="1_1_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','手机大小']);">手机大小</a>
+					</li>
+				</ul>
+
+				<ul class="J_choice" data-choice="1_1_1">
+					<li class="J_liNext li-2 li-h" data-target-dialog="1_2_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','看对比']);">看对比</a>
+					</li>
+					<li class="J_liNext li-2 li-h" data-target-dialog="1_2_2">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','看试用']);">看试用</a>
+					</li>
+				</ul>
+
+				<ul class="J_choice" data-choice="2_1">
+					<li class="J_liNext li-3 no-border bg-trsp" data-target-dialog="2_1">
+
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','奥斯卡']);">
+							<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-2-oscars.jpg" alt="30部奥斯卡最佳影片">
+							<p>30部奥斯卡最佳影片</p>
+						</a>
+					</li>
+					<li class="J_liNext li-3 no-border bg-trsp" data-target-dialog="2_2">
+
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','美剧']);">
+							<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-2-drama.jpg" alt="80集美剧">
+							<p>80集美剧</p>
+						</a>
+					</li>
+					<li class="J_liNext li-3 no-border bg-trsp" data-target-dialog="2_3">
+
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','海贼王']);">
+							<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-2-onepiece.jpg" alt="700番海贼王">
+							<p>700番海贼王</p>
+						</a>
+					</li>
+				</ul>
+
+				<ul class="sup-choice J_choice" data-choice="7_1">
+					<li class="li-3 no-border bg-trsp J_fpVideo" data-src="http://v.qq.com/iframe/player.html?vid=a0197hj5a1m&tiny=0&auto=0">
+
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','麻花第一集']);">
+							<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-7-1.jpg" alt="第一集">
+							<p>第一集</p>
+						</a>
+					</li>
+					<li class="li-3 no-border bg-trsp J_fpVideo" data-src="http://v.qq.com/iframe/player.html?vid=p019889oxs0&tiny=0&auto=0">
+
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','麻花第二集']);">
+							<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-7-2.jpg" alt="第二集">
+							<p>第二集</p>
+						</a>
+					</li>
+					<li class="li-3 no-border bg-trsp J_fpVideo" data-src="http://v.qq.com/iframe/player.html?vid=c01985i2nk0&tiny=0&auto=0">
+
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','麻花第三集']);">
+							<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-7-3.jpg" alt="第三集">
+							<p>第三集</p>
+						</a>
+					</li>
+					<ul class="ul-sub">
+						<li class="J_liNext li-f-2 no-br" data-target-dialog="7_1">
+							<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','看完了']);">看完了</a>
+						</li>
+						<li class="J_liNext li-f-2 no-br" data-target-dialog="7_1">
+							<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','不看了']);">不看了</a>
+						</li>
+					</ul>
+				</ul>
+
+				<ul class="main-choice reg-choice J_choice J_mainChoice" data-choice="4">
+					<li class="J_liNext li-3" data-target-dialog="1" data-target-choice="1_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','尺寸多大']);">尺寸多大</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="2" data-target-choice="2_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','存储多大']);">存储多大</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="3">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','电量多大']);">电量多大</a>
+					</li>
+					<br>
+					<li class="J_liNext li-3" data-target-dialog="4" data-target-choice="4">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','配置价格']);">配置价格</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="5">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','问颜值']);">问颜值</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="6" data-target-choice="4">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','怎么买']);">怎么买</a>
+					</li>
+					<br>
+					<li class="J_liNext li-3" data-target-dialog="7" data-target-choice="7_1">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','我是彩蛋']);">我是彩蛋</a>
+					</li>
+					<li class="J_liNext li-3" data-target-dialog="8">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','求红包']);">求红包</a>
+					</li>
+					<li class="J_liNext J_finishDialog li-3" data-target-dialog="9" data-continue="false">
+						<a href="javascript:void(0);" onclick="_hmt.push(['_trackEvent','mimaxH5','不聊了']);">不聊了</a>
+					</li>
+					<br>
+					<!-- 如果用户还没预约，显示立即预约 -->
+					<li class="li-f-1 no-br highlight-btn" registered="false">
+						<a href="http://s1.mi.com/m/ghd/2016/0503maxyy/index.html" target="_blank" onclick="_hmt.push(['_trackEvent','mimaxH5','立即预约']);">立即预约</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	</div>
-	<div class="box_ft close">
-		<div class="input-wrapper">
-			<p class="J_noticeInput">点击提问</p>
-			<img src="http://c1.mifile.cn/f/i/hd/2016051101/input-down.png" alt="">
-		</div>
 
-		<div class="choice-wrapper J_choiceWrapper">
-			<ul class="main-choice J_choice J_mainChoice" data-choice="0">
-				<li class="J_liNext li-3" data-target-dialog="2" data-target-choice="2_1">
-					<a href="javascript:void(0);">存储多大</a>
-				</li>
-				<li class="J_liNext li-3" data-target-dialog="3">
-					<a href="javascript:void(0);">电量多大</a>
-				</li>
-				<li class="J_liNext li-3" data-target-dialog="8">
-					<a href="javascript:void(0);">求红包</a>
-				</li>
-			</ul>
-
-			<ul class="J_choice" data-choice="2_1">
-				<li class="J_liNext li-3 no-border bg-trsp" data-target-dialog="2_1">
-
-					<a href="javascript:void(0);">
-						<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-2-oscars.jpg" alt="30部奥斯卡最佳影片">
-						<p>30部奥斯卡最佳影片</p>
-					</a>
-				</li>
-				<li class="J_liNext li-3 no-border bg-trsp" data-target-dialog="2_2">
-
-					<a href="javascript:void(0);">
-						<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-2-drama.jpg" alt="80集美剧">
-						<p>80集美剧</p>
-					</a>
-				</li>
-				<li class="J_liNext li-3 no-border bg-trsp" data-target-dialog="2_3">
-
-					<a href="javascript:void(0);">
-						<img src="http://c1.mifile.cn/f/i/hd/2016051101/c-2-onepiece.jpg" alt="700番海贼王">
-						<p>700番海贼王</p>
-					</a>
-				</li>
-			</ul>
-		</div>
+	<div class="full-pics" id="J_fullPics">
+		<div class="pic"></div>
 	</div>
-</div>
 
-<div style="display: none;" class="J_map">
-	<div class="map-wrapper J_mapWrapper">
-		<div class="map">
-			<div class="map-pointer"></div>
-		</div>
-		<p>驾驶总时长：<span class="J_tourtime">0</span> 小时</p>
-	</div>
-</div>
+    <audio id="message-push-music" preload="preload">
+    	<source src="http://c1.mifile.cn/f/i/hd/2016051101/message-push.mp3" type="audio/mp3">
+    </audio>
 
-<script id="messageTpl" type="text/x-dot-template">
+    <audio id="train-run-music" preload="none">
+    	<source src="http://c1.mifile.cn/f/i/hd/2016051101/train-run.mp3" type="audio/mp3">
+    </audio>
+
+    	<div style="display: none;" class="J_map">
+    		<div class="map-wrapper J_mapWrapper">
+    			<div class="map">
+    				<div class="map-pointer"></div>
+    			</div>
+    			<p>驾驶总时长：<span class="J_tourtime">0</span> 小时</p>
+    		</div>
+    	</div>
+
+    	<div class="fullpage-overlay video-overlay J_videoOverlay" width="1" height="1">
+    		<div class="J_videoWrapper"></div>
+    		<span class="tips-close J_videoClose"></span>
+    	</div>
+
+    	<div class="fullpage-overlay gallery-overlay J_galleryOverlay" data-gallery="1">
+    		<div class="xm-slide J_gallerySlide">
+    			<div class="xm-slide-scroll">
+    				<figure>
+    					<img data-origin="http://c1.mifile.cn/f/i/hd/2016051101/gallery-02.jpg">
+    				</figure> 
+    				<figure>
+    					<img data-origin="http://c1.mifile.cn/f/i/hd/2016051101/gallery-01.jpg">
+    				</figure>
+    				<figure>
+    					<img data-origin="http://c1.mifile.cn/f/i/hd/2016051101/gallery-03.jpg">
+    				</figure>
+    				<figure>
+    					<img data-origin="http://c1.mifile.cn/f/i/hd/2016051101/gallery-04.jpg">
+    				</figure>
+    				<figure>
+    					<img data-origin="http://c1.mifile.cn/f/i/hd/2016051101/gallery-07.jpg">
+    				</figure>
+    			</div>
+    		</div>
+    		<span class="tips-close J_galleryClose"></span>
+    	</div>
+
+    	<script type="text/javascript">
+    		var me = {
+		  		id: 'me', // 写死的，不用改
+		  		name: '' || '小米的朋友', // 用户昵称
+		  		avatar: '' || 'http://c1.mifile.cn/f/i/hd/2016051101/a-default.png', // 用户头像图片 url
+		  		userId: '', // 用户id
+		  		registered: false // 用户是否已经预约
+		  	};
+		  </script>
+
+		  <script id="messageTpl" type="text/x-dot-template">
 		  	{{~it :message:index}}
 		  	<div class="clearfix">
 		  		{{? message.type == 'system'}}
@@ -142,16 +293,22 @@
 		  	</div>
 		  	{{~}}
 		  </script>
-  <script src='js/doT.min.js'></script>
-<script src='js/jquery.min.js'></script>
 
-  
+		  <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+		  <script src="http://hd.mi.com/f/zt/hd/20160317/milib.js"></script>
+		  <script src="http://hd.mi.com/f/zt/hd/2016051101/slide.js"></script>
+		  <script src="http://hd.mi.com/f/zt/hd/2016051101/mimax.js?161222"></script>
+		</body>
 
-    <script  src="js/index.js"></script>
+	<!-- 	<script>
+	//百度统计
+			var _hmt = _hmt || [];
+			(function() {
+				var hm = document.createElement("script");
+				hm.src = "//hm.baidu.com/hm.js?71558e7b4aa822e282e758f8dc0b88b0";
+				var s = document.getElementsByTagName("script")[0];
+				s.parentNode.insertBefore(hm, s);
+			})();
+		</script> -->
 
-
-
-
-</body>
-
-</html>
+		</html>
