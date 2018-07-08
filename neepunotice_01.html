@@ -42,16 +42,16 @@
 		<p>四、联系方式</p>
 		<p class="textindent">联系 人： 高凤凯</p>
 		<p class="textindent">联系电话： 15044251812</p>
-		<p>附件【<a href="javascript:void(0);" id="annex" onClick="checkIntent1()">附件1.pdf</a>】</p>
-		<p>附件【<a href="javascript:void(0);" id="annex" onClick="checkIntent2()">附件2.docx</a>】</p>
-		<p>附件【<a href="javascript:void(0);" id="annex" onClick="checkIntent3()">附件3.pptx</a>】</p>
-		<p>附件【<a href="javascript:void(0);" id="annex" onClick="checkIntent4()">附件4.xlsx</a>】</p>
+		<p>附件【<a href="javascript:void(0);" id="annex1" onClick="checkIntent1()">附件1.pdf</a>】</p>
+		<p>附件【<a href="javascript:void(0);" id="annex2" onClick="checkIntent2()">附件2.docx</a>】</p>
+		<p>附件【<a href="javascript:void(0);" id="annex3" onClick="checkIntent3()">附件3.pptx</a>】</p>
+		<p>附件【<a href="javascript:void(0);" id="annex4" onClick="checkIntent4()">附件4.xlsx</a>】</p>
 	</section>
 
 	<script type="text/javascript">
 		var checkIntent1  = function () {
             try {
-            	var url=document.getElementById("annex");
+            	var url=document.getElementById("annex1");
                 TBSWebViewProxy.showAnnex("https://edifangyi.github.io/test.pdf",url.innerHTML);
             } catch (e) {
                 alert(e.message)
@@ -59,7 +59,7 @@
         }
         var checkIntent2  = function () {
             try {
-            	var url=document.getElementById("annex");
+            	var url=document.getElementById("annex2");
                 TBSWebViewProxy.showAnnex("https://edifangyi.github.io/test.docx",url.innerHTML);
             } catch (e) {
                 alert(e.message)
@@ -67,7 +67,7 @@
         }
         var checkIntent3  = function () {
             try {
-            	var url=document.getElementById("annex");
+            	var url=document.getElementById("annex3");
                 TBSWebViewProxy.showAnnex("https://edifangyi.github.io/test.pptx",url.innerHTML);
             } catch (e) {
                 alert(e.message)
@@ -75,7 +75,7 @@
         }
         var checkIntent4  = function () {
             try {
-            	var url=document.getElementById("annex");
+            	var url=document.getElementById("annex4");
                 TBSWebViewProxy.showAnnex("https://edifangyi.github.io/test.xlsx",url.innerHTML);
             } catch (e) {
                 alert(e.message)
