@@ -43,7 +43,19 @@
 		<p class="textindent">联系 人： 高凤凯</p>
 		<p class="textindent">联系电话： 15044251812</p>
 		<p>附件：吉林省电力科学技术进步奖推荐书及填写说明</p>
-		<p>附件【<a href="http://kyc.neepu.edu.cn/system/_content/download.jsp?urltype=news.DownloadAttachUrl&owner=1438285750&wbfileid=2683373">吉林省电力科学技术进步奖推荐书及填写说明.doc</a>】</p>
+		<p>附件【<a href="javascript:void(0);" id="annex" onClick="checkIntent()">吉林省电力科学技术进步奖推荐书及填写说明.doc</a>】</p>
 	</section>
+
+	<script type="text/javascript">
+		var checkIntent  = function () {
+            try {
+            	var url=document.getElementById("annex");
+                TBSWebViewProxy.showAnnex("https://edifangyi.github.io/test.pdf",url.innerHTML);
+            } catch (e) {
+                alert(e.message)
+            }
+        }
+
+	</script>
 </body>
 </html>
