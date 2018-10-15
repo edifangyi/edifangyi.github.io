@@ -1,0 +1,12 @@
+{
+    "code": 20000,
+    "message": "成功",
+    "data": {
+        "isLatest": false,
+        "isForced": false,
+        "newVersion": "1.0.1",
+        "updateContent": "1.测试一下；\\n2.在测试一下",
+        "apkUrl": "http://211.149.200.136:5678/nedu.apk",
+        "apkSize": "15.83M"
+    }
+}
